@@ -8,7 +8,7 @@ import {
 } from "react-simple-maps";
 
 const geoUrl =
-  "/world-110m.json";
+  "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
 
 const CaseMap = ({setTooltipContent, data}) => {
 

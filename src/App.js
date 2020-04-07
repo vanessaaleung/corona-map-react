@@ -46,23 +46,28 @@ function App() {
 	    	<div className="description">
 	    		<p>Hover map for more details</p>
 	    	</div>
-	    	<div className="map-group">
+	    	
 	    	{
-	    		view === "case" ? <CaseMap setTooltipContent={setContent} data={caseData}/>
+	    		view === "case" ? 
+	    		<div className="map-group">
+		    		<CaseMap setTooltipContent={setContent} data={caseData}/>
+		    		<ReactTooltip className="tool-tip">{content}</ReactTooltip>
+				</div>
 				    :
-				view === "deaths" ? <DeathMap setTooltipContent={setContent} data={deathData}/>
+				view === "deaths" ?
+				<div className="map-group"> 
+					<DeathMap setTooltipContent={setContent} data={deathData}/>
+					<ReactTooltip className="tool-tip">{content}</ReactTooltip>
+				</div>
 				    :
-				view === "percapita" ? <PerCapitaMap setTooltipContent={setContent} data={caseData}/>
+				view === "percapita" ? 
+				<div className="map-group">
+					<PerCapitaMap setTooltipContent={setContent} data={caseData}/>
+					<ReactTooltip className="tool-tip">{content}</ReactTooltip>
+				</div>
 				  	: null
 			}
-				<ReactTooltip className="data-tip"
-					borderColor="lightgrey"
-					backgroundColor="white"
-					textColor="black"
-				>
-					{content}
-				</ReactTooltip>
-			</div>
+
 	    </div>
   );
 }
