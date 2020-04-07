@@ -1,1 +1,0 @@
-# corona-map-react
