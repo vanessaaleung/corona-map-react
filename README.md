@@ -9,6 +9,7 @@ The data is realtime fetched from [Johns Hopkins University](https://github.com/
 
 ## Techstack
 1. D3.js
+2. React
 
 ## In-development
 ***This project hasn't been updated since March 2020.***
