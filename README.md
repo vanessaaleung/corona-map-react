@@ -1,6 +1,6 @@
 # The New York Times Coronavirus Map Recreation with React
 
-The map can be found [here](https://vanessaaleung.github.io/corona-map-react/)
+The recreation can be found [here](https://vanessaaleung.github.io/corona-map-react/). This project is inspired by the [New York Times' Coronavirus Map](https://www.nytimes.com/interactive/2020/world/coronavirus-maps.html).
 
 <img src="screenshot.png" width="800px">
 
