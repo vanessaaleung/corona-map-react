@@ -7,6 +7,9 @@ The recreation can be found [here](https://vanessaaleung.github.io/corona-map-re
 ## Data
 The data is realtime fetched from [Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19)
 
+## Techstack
+1. D3.js
+
 ## In-development
 ***This project hasn't been updated since March 2020.***
 
