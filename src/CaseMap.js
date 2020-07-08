@@ -36,7 +36,7 @@ const CaseMap = ({setTooltipContent, data}) => {
   });
 
   const sizeScale = scaleLinear()
-  .domain([10, 250, 5000, 100000])
+  .domain([100, 5000, 10000, 3000000])
   .range([1, 4, 10, 18]);
 
   const notShowCountries = ["Denmark", "Estonia", "Austria", "Ireland", "Norway", "Finland", "Portugal", "Lithuania", "Greece", "Germany", "Luxembourg", "Poland", "Belarus", "Romania", "Belgium", "Switzerland", "Czechia", "Bosnia and Herzegovina", "Slovakia", "Serbia", "Hungary", "Slovenia", "Croatia", "Moldova", "Armenia", "Egypt", "Saudi Arabia", "Lebanon", "Bahrain", "Qatar", "United Arab Emirates", "Iraq", "Singapore", "Indonesia", "Japan", "Argentina"]
