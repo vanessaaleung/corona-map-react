@@ -2,7 +2,7 @@
 
 The recreation can be found [here](https://vanessaaleung.github.io/corona-map-react/). This project is inspired by the [New York Times' Coronavirus Map](https://www.nytimes.com/interactive/2020/world/coronavirus-maps.html).
 
-<img src="screenshot.png" width="800px">
+<img src="demo.gif" width="800px">
 
 ## Data
 The data is realtime fetched from [Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19)
