@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c390252baa61b930ddf38cdd7129d92c",
+    "revision": "9da76a86eac9a29b76f352ba2c3025af",
     "url": "/corona-map-react/index.html"
   },
   {
